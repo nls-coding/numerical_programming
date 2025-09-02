@@ -1,0 +1,2 @@
+# numerical_programming
+大学で受講した数値計算についてまとめたものです。
