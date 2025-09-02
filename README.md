@@ -11,6 +11,14 @@ Python 3.10 を用いて、数値計算アルゴリズム・統計解析・シ�
 - [課題3](#課題3) 数値解析（方程式解法・積分・微分方程式・3体問題）
 - [課題4](#課題4) 乱数・モンテカルロ・ランダムウォーク・物理シミュレーション
 
+### 実行環境（Colab）
+各ノートブックは Google Colab で実行可能です。
+
+- [フォルダ全体](https://drive.google.com/drive/folders/1QUc-rciBXZXYpKehLWwH3ry6sVZjl78D?usp=sharing)
+- [課題1 Notebooks](https://colab.research.google.com/drive/1nrTRkYDmACITWo07B_vQtj4tDnBblxfS)
+- [課題2 Notebooks](https://colab.research.google.com/drive/14yaGzwVf9hse7aANrEYJCsdMXng6Mqgg)
+- [課題3 Notebooks](https://colab.research.google.com/drive/1nrTRkYDmACITWo07B_vQtj4tDnBblxfS)
+- [課題4 Notebooks](https://colab.research.google.com/drive/1DSlnNzu2d5GCuCdJKW6g77ve7yPNFxn1)
 ---
 
 ## 課題1
@@ -126,16 +134,3 @@ Python 3.10 を用いて、数値計算アルゴリズム・統計解析・シ�
   - 誤差評価や収束確認など、実務的な視点を意識  
 - **今後の応用**：  
   - 本演習で学んだ数値計算の基礎を、API開発・データ解析・MLOps 実務へ展開していきたい  
-
----
-
-## 実行環境（Colab）
-各ノートブックは Google Colab で実行可能です。
-
-- [フォルダ全体](https://drive.google.com/drive/folders/1QUc-rciBXZXYpKehLWwH3ry6sVZjl78D?usp=sharing)
-- [課題1 Notebooks](https://colab.research.google.com/drive/1nrTRkYDmACITWo07B_vQtj4tDnBblxfS)
-- [課題2 Notebooks](https://colab.research.google.com/drive/14yaGzwVf9hse7aANrEYJCsdMXng6Mqgg)
-- [課題3 Notebooks](https://colab.research.google.com/drive/1nrTRkYDmACITWo07B_vQtj4tDnBblxfS)
-- [課題4 Notebooks](https://colab.research.google.com/drive/1DSlnNzu2d5GCuCdJKW6g77ve7yPNFxn1)
-
----
