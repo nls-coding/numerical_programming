@@ -22,9 +22,8 @@ Python 3.10 を用いて、数値計算アルゴリズム・統計解析・シ�
 - **二次方程式の解**：判別式に基づき、解なし／重解／一次方程式の退化ケースまで実装
 - **正規分布関数の定義と積分**：標準正規分布を自作関数で定義し、数値積分により面積=1を確認
 - **無限級数による円周率近似**：  
-  \[
+  ```math
   \sum_{r=1}^{\infty} \frac{1}{r^2} = \frac{\pi^2}{6}
-  \]  
   を用いて π の近似を行い、誤差評価を可視化
 - **フーリエ級数による矩形波近似**：N=1,3,5,10,25,50 で収束の様子を比較
 
@@ -63,14 +62,14 @@ Python 3.10 を用いて、数値計算アルゴリズム・統計解析・シ�
 ### 内容
 - **方程式解法（二分法）**：\(x^x=5\) の近似解を収束判定付きで算出
 - **数値積分（台形法）**：  
-  \[
+  ```math
   I = \int_0^1 \sqrt{1-x^2}\,dx
-  \]  
+  
   を台形法で求め、解析解 \(\pi/4\) と比較
 - **減衰振動（常微分方程式）**：  
-  \[
+  ```math
   \frac{d^2x}{dt^2} = -kx -2\gamma\frac{dx}{dt}
-  \]  
+   
   を Euler 法で数値解、時間発展を可視化
 - **連立方程式の解法**：5変数5方程式をガウス消去法で解く
 - **3体問題シミュレーション**：  
@@ -94,7 +93,9 @@ Python 3.10 を用いて、数値計算アルゴリズム・統計解析・シ�
 - **モンテカルロ積分**：単位球体積を乱数点打ちで推定し、N による収束を可視化
 - **2D ランダムウォーク**：斜め移動を仮定し、1000ステップの軌跡を色分け表示
 - **宇宙線ミューオンの角度分布**：  
-  - \(\cos^2\theta\) 分布に従う乱数を rejection sampling で生成  
+  - ```math
+    \cos^2\theta 分布に従う乱数を
+  rejection sampling で生成  
   - 2 段検出器を用いた「透過判定」による検出率シミュレーション  
   - L と検出率／最大角度のトレードオフを可視化
 
@@ -131,9 +132,10 @@ Python 3.10 を用いて、数値計算アルゴリズム・統計解析・シ�
 ## 実行環境（Colab）
 各ノートブックは Google Colab で実行可能です。
 
-- [課題1 Notebooks](https://colab.research.google.com/drive/1nrTRkYDmACITWo07B_vQtj4tDnBblxfS)  
-- [課題2 Notebooks](https://colab.research.google.com/drive/14yaGzwVf9hse7aANrEYJCsdMXng6Mqgg)  
-- [課題3 Notebooks](https://colab.research.google.com/drive/1Hdf8HX07EMMJyuXlHcwTbiDtGO9Qf-RO)  
-- [課題4 Notebooks](https://colab.research.google.com/drive/1DSlnNzu2d5GCuCdJKW6g77ve7yPNFxn1)  
+- [フォルダ全体](https://drive.google.com/drive/folders/1QUc-rciBXZXYpKehLWwH3ry6sVZjl78D?usp=sharing)
+- [課題1 Notebooks](https://colab.research.google.com/drive/1nrTRkYDmACITWo07B_vQtj4tDnBblxfS)
+- [課題2 Notebooks](https://colab.research.google.com/drive/14yaGzwVf9hse7aANrEYJCsdMXng6Mqgg)
+- [課題3 Notebooks](https://colab.research.google.com/drive/1nrTRkYDmACITWo07B_vQtj4tDnBblxfS)
+- [課題4 Notebooks](https://colab.research.google.com/drive/1DSlnNzu2d5GCuCdJKW6g77ve7yPNFxn1)
 
 ---
